@@ -13,8 +13,8 @@ quick overview:
 		tensorboard --logdir=logs
 	<li> AI_play.py to watch a model try to walk after training.
 		Make sure to 
-		a/ select the correct path to the saved model
-		b/ select the correct model type, for example: PPO in  PPO.model()
+		<li>a/ select the correct path to the saved model
+		<li>b/ select the correct model type, for example: PPO in  PPO.model()
 
 
 Enjoy
