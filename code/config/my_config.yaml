@@ -1,0 +1,32 @@
+#INITIAL SETTINGS
+env: BipedalWalker-v3  
+
+#Training parameters
+model: TQC # A2C # PPO
+
+log_name_tensorboard: Test Run TQC
+
+total_timesteps: 10000000 
+checkpoint_freq: 100000 
+
+ent_coef: auto
+gae_lambda: 0.93
+gamma: 0.98
+learning_rate: 0.001
+max_grad_norm: 0.5
+normalize: True
+normalize_advantage: False
+policy: MlpPolicy
+use_sde: True
+vf_coef: 0.5
+tau: 0.02
+
+#Loading parameters (for visualization or continue training)
+model_type: TQC
+model_path: ./models/TQC/2023_04_09_at_13h-55m-42s/1000000
+
+
+
+
+
+
